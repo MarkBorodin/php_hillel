@@ -134,10 +134,6 @@ abstract class Vehicle implements MovableInterface, MovableInterfacePlus
             {
                 $this->transmission->gearNeutral();
             }
-            else
-            {
-                $this->transmission->gearNeutral();
-            }
             echo "current speed: $this->speed ".PHP_EOL;
         }
         else
