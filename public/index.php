@@ -7,10 +7,11 @@ include 'vendor/autoload.php';
 $myCar = new App\Car('Ford', 'Fusion', 2010, 68, 5);
 $myCar2 = new App\Car('BMW', 'E46', 2001, 150, 6);
 
+$myTruck = new App\Truck('DAF', 'XF 95', 2004, 410, 6);
 
 # $someCar - variable for objects of class Сar
 //$someCar = $myCar;
-$someCar = $myCar2;
+$someCar = $myTruck;
 
 
 # tests
